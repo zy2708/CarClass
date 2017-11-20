@@ -51,7 +51,7 @@ public class NewCar {
         car4.setEnginesize(Double.parseDouble(enginesize4));
         car4.setMake(make4);
 
-        JOptionPane.showMessageDialog(null,"The fourth car "+car1);
+        JOptionPane.showMessageDialog(null,"The fourth car "+car4);
         if(car1.getColor().equals(car4.getColor())&&car1.getHorsepower()==car4.getHorsepower()
                 &&car1.getEnginesize()==car4.getEnginesize()&&car1.getMake().equals(car4.getMake())){
             JOptionPane.showMessageDialog(null,"There are "+Car.getCount()+" cars. The first car and the fourth car are the same.");
